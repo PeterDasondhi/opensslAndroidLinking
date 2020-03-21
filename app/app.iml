@@ -24,8 +24,8 @@
         <option name="ALLOW_USER_CONFIGURATION" value="false" />
         <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
         <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
-        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/src/arm8/res;file://$MODULE_DIR$/src/debug/res;file://$MODULE_DIR$/src/arm8Debug/res;file://$MODULE_DIR$/build/generated/res/rs/arm8/debug;file://$MODULE_DIR$/build/generated/res/resValues/arm8/debug" />
-        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/androidTest/res;file://$MODULE_DIR$/src/test/res;file://$MODULE_DIR$/src/androidTestArm8/res;file://$MODULE_DIR$/src/testArm8/res;file://$MODULE_DIR$/src/androidTestDebug/res;file://$MODULE_DIR$/src/testDebug/res;file://$MODULE_DIR$/build/generated/res/rs/androidTest/arm8/debug;file://$MODULE_DIR$/build/generated/res/resValues/androidTest/arm8/debug" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/main/res;file://$MODULE_DIR$/src/arm7/res;file://$MODULE_DIR$/src/debug/res;file://$MODULE_DIR$/src/arm7Debug/res;file://$MODULE_DIR$/build/generated/res/rs/arm7/debug;file://$MODULE_DIR$/build/generated/res/resValues/arm7/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/src/androidTest/res;file://$MODULE_DIR$/src/test/res;file://$MODULE_DIR$/src/androidTestArm7/res;file://$MODULE_DIR$/src/testArm7/res;file://$MODULE_DIR$/src/androidTestDebug/res;file://$MODULE_DIR$/src/testDebug/res;file://$MODULE_DIR$/build/generated/res/rs/androidTest/arm7/debug;file://$MODULE_DIR$/build/generated/res/resValues/androidTest/arm7/debug" />
         <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
       </configuration>
     </facet>
