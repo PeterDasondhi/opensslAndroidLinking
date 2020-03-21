@@ -9,14 +9,14 @@ find_library (log-lib log)
 #add the open ssl crypto lib
 add_library(libcrypto STATIC IMPORTED)
 set_target_properties(libcrypto PROPERTIES IMPORTED_LOCATION
-        ${MY_OPENSSL_DIR}/arm64-v8a/lib/libcrypto.a)
+        ${MY_OPENSSL_DIR}/${ANDROID_ABI}/lib/libcrypto.a)
 
 # add the open ssl ssl lib
 
 add_library(libssl STATIC IMPORTED)
 
 set_target_properties(libssl PROPERTIES IMPORTED_LOCATION
-        ${MY_OPENSSL_DIR}/arm64-v8a/lib/libssl.a)
+        ${MY_OPENSSL_DIR}/${ANDROID_ABI}/lib/libssl.a)
 
 #add to target_include_directories
 
