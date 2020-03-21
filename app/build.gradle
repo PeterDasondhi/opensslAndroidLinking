@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-def my_openssl_dir = getRootDir().toString() + "/build-openssl-android/openssl-lib"
+def my_openssl_dir = getRootDir().toString() + "/distribution/openssl"
 android {
     compileSdkVersion 29
     defaultConfig {
@@ -10,6 +10,7 @@ android {
         versionName "1.0"
         externalNativeBuild {
             cmake {
+                abiFilters "arm64-v8a"
                 cppFlags "-std=c++17 -frtti -fexceptions"
                 arguments '-DANDROID_STL=c++_shared'
                 arguments '-DMY_OPENSSL_DIR=' + my_openssl_dir
