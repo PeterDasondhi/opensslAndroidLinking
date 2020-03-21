@@ -1,0 +1,3 @@
+/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/.cxx/cmake/universalRelease/x86/CMakeFiles/rebuild_cache.dir
+/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/.cxx/cmake/universalRelease/x86/CMakeFiles/edit_cache.dir
+/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/.cxx/cmake/universalRelease/x86/CMakeFiles/hello-jni.dir

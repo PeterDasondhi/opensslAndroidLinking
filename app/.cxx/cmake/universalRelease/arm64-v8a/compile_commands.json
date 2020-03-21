@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/.cxx/cmake/universalRelease/arm64-v8a",
+  "command": "/home/leometric/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/bin/clang --target=aarch64-none-linux-android23 --gcc-toolchain=/home/leometric/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/leometric/Android/Sdk/ndk/21.0.6113669/toolchains/llvm/prebuilt/linux-x86_64/sysroot -Dhello_jni_EXPORTS -I/home/leometric/Desktop/test/ndk-samples-master/hello-jni/distribution/include  -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -O2 -DNDEBUG  -fPIC   -o CMakeFiles/hello-jni.dir/hello-jni.c.o   -c /home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/src/main/cpp/hello-jni.c",
+  "file": "/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/src/main/cpp/hello-jni.c"
+}
+]

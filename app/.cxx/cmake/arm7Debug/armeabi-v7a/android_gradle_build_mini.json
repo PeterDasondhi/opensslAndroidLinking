@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/home/leometric/Android/Sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/home/leometric/Android/Sdk/ndk/21.0.6113669/build/cmake/platforms.cmake",
+    "/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/leometric/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/.cxx/cmake/arm7Debug/armeabi-v7a\" clean"
+  ],
+  "buildTargetsCommand": "/home/leometric/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/.cxx/cmake/arm7Debug/armeabi-v7a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "hello-jni-Debug-armeabi-v7a": {
+      "artifactName": "hello-jni",
+      "buildCommand": "/home/leometric/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/.cxx/cmake/arm7Debug/armeabi-v7a\" hello-jni",
+      "abi": "armeabi-v7a",
+      "output": "/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/build/intermediates/cmake/arm7Debug/obj/armeabi-v7a/libhello-jni.so"
+    }
+  }
+}

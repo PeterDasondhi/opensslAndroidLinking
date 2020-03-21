@@ -1,0 +1,19 @@
+{
+  "buildFiles": [
+    "/home/leometric/Android/Sdk/ndk/21.0.6113669/build/cmake/android.toolchain.cmake",
+    "/home/leometric/Android/Sdk/ndk/21.0.6113669/build/cmake/platforms.cmake",
+    "/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/home/leometric/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/.cxx/cmake/universalDebug/arm64-v8a\" clean"
+  ],
+  "buildTargetsCommand": "/home/leometric/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/.cxx/cmake/universalDebug/arm64-v8a\" {LIST_OF_TARGETS_TO_BUILD}",
+  "libraries": {
+    "hello-jni-Debug-arm64-v8a": {
+      "artifactName": "hello-jni",
+      "buildCommand": "/home/leometric/Android/Sdk/cmake/3.10.2.4988404/bin/ninja -C \"/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/.cxx/cmake/universalDebug/arm64-v8a\" hello-jni",
+      "abi": "arm64-v8a",
+      "output": "/home/leometric/Desktop/test/ndk-samples-master/hello-jni/app/build/intermediates/cmake/universalDebug/obj/arm64-v8a/libhello-jni.so"
+    }
+  }
+}
