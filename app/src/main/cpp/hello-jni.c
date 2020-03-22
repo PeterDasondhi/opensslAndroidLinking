@@ -59,5 +59,8 @@ Java_com_example_hellojni_HelloJni_stringFromJNI(JNIEnv *env,
 #define ABI "unknown"
 #endif
 
-    return (*env)->NewStringUTF(env, EVP_add_cipher(EVP_R_CIPHER_PARAMETER_ERROR));
+    int cipher = EVP_add_cipher(EVP_des_cbc());
+    char cipher_str[50];
+    sprintf(cipher_str, "received cipher=%d", cipher);
+    return (*env)->NewStringUTF(env, cipher_str);
 }

@@ -1,5 +1,5 @@
 apply plugin: 'com.android.application'
-def my_openssl_dir = getRootDir().toString() + "/build-openssl-android/openssl-lib"
+def my_openssl_dir = getRootDir().toString() + "/distribution/openssl"
 android {
     compileSdkVersion 29
     defaultConfig {
